@@ -1,12 +1,12 @@
 //Move and rotate opperations
-double size =40;
+double size =120;
 CSG cube = new Cube(size,// X dimention
 			size,// Y dimention
 			size//  Z dimention
 			).toCSG()
 		
 CSG movedCube = cube
-			.movex(10)
+			.movex(80)
 			.movey(20)
 			.movez(30)
 //rotate
